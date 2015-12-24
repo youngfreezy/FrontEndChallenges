@@ -1,1 +1,3 @@
-# FrontEndChallenges: Practicing my JavaScript and CSS Skills.  
+# FrontEndChallenges: 
+
+Practicing my JavaScript and CSS Skills.  
