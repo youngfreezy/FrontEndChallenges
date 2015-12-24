@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'FranklinGothic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/FranklinGothic-Book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FranklinGothic';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/FranklinGothic-DemiCd.otf') format('opentype');
+}
+
+
+
+
+body {
+  font-family: 'FranklinGothic', serif;
+  
+}
+
+#cssmenu {
+    margin: 30px 0px;
+    padding: 0;
+    font-size: 16;
+}
+
+#cssmenu {
+    width: 300px;
+}
+
+#cssmenu ul {
+    list-style: none;
+    text-indent: 0px;
+}
+
+#cssmenu li {
+    border-bottom: 1px solid lightgrey;
+    /* line-height: 20px; */
+    /* vertical-align: middle; */
+}
+#cssmenu li:last-child {
+  border : none !important;
+}
+
+#cssmenu a {
+  color: #646464;
+  display: block;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 10px 10px;
+  /* vertical-align: middle; */
+  font-size: 20px;
+}
+
+.subscribe {
+  width: 14px;
+  background: url('../icons.png') 0 0 ;
+  background-repeat: no-repeat;
+}
+
+#cssmenu a:hover {
+    background-color: lightgrey;
+}
+
+.sp-icon{
+  display:inline-block;
+  width:20px;
+  height:20px;
+  margin-right: 10px;
+  background-image: url('../icons.png');
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.sps-market{
+ background-position: 0px 0px;
+}
+
+#cssmenu a:hover .sps-market{
+  background-position: 0px -20px;
+}
+
+.sps-profile{
+  background-position: -20px 0;
+}
+
+#cssmenu a:hover .sps-profile{
+  background-position: -20px -20px;
+}
+
+.sps-logout{
+  background-position: -40px 0;
+}
+
+#cssmenu a:hover .sps-logout{
+  background-position: -40px -20px;
+}
+
+
+
